@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import '@fontsource/plus-jakarta-sans/latin.css';
 import "./globals.css";
 
 const geistSans = Geist({
