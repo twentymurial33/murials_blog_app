@@ -2,10 +2,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#2563EB',
-        secondary: '#4B5563',
-        background: '#F9FAFB',
-        surface: '#FFFFFF',
+        blue:  '#6246EA',
+        black:    '#2B2C34',
+        lightGrey :'#E4E5E9',
+        grey:'#C0C0C0',
+        darkGrey: '#2D3748',
+        white: '#FFFFFE',
         text: {
           dark: '#111827',
           muted: '#6B7280',
