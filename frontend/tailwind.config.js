@@ -14,6 +14,15 @@ module.exports = {
       '3xl': ['3rem', { lineHeight: '3.5rem' }],        
       '4xl': ['4rem', { lineHeight: '4.5rem' }],       
     },
+    colors: {
+        blue:'#6246EA',
+        black:'#2B2C34',
+        lightGrey :'#E4E5E9',
+        lightGrey2:'#EFF0F3',
+        grey:'#C0C0C0',
+        darkGrey:'#2D3748',
+        white:'#FFFFFE',
+    },
     extend: {},
   },
 }
