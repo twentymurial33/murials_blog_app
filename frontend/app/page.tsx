@@ -1,12 +1,12 @@
-
-import Footer from "../components/layout/Footer";
+import React from "react";
+import Layout from "../components/layout/index";
 
 export default function Home() {
   return (
-    <div>
-       
-         
-        <Footer />
-    </div>
+  
+         <Layout >
+            <h1>Hello World</h1>
+         </Layout>
+
   );
 }

@@ -2,7 +2,7 @@ import { FaMedium, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-sm text-gray-700 mt-10">
+    <footer className="bg-gray-100 text-sm text-gray-700 mt-10 fixed bottom-0 left-0 right-0 w-full">
       <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-5 gap-6">
         <div>
           <h2 className="text-xl font-bold text-blue-900">
@@ -45,9 +45,6 @@ export default function Footer() {
           <h3 className="font-bold mb-2">FOLLOW US</h3>
           <ul className="space-y-1">
             <li>Medium</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
           </ul>
         </div>
       </div>
