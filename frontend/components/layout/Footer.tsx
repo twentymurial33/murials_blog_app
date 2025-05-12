@@ -1,5 +1,3 @@
-import { FaMedium, FaLinkedin } from 'react-icons/fa';
-import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -10,8 +8,8 @@ export default function Footer() {
             Murials Blog
           </h2>
           <div className="flex gap-3 mt-4 text-grey text-lg">
-            <FaMedium />
-            <FaLinkedin />
+            <img src="/images/Medium Monogram.png" alt="Medium" width={24} height={24} />
+            <img src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} />
           </div>
         </div>
 
@@ -29,11 +27,17 @@ export default function Footer() {
         <div>
           <h3 className="font-bold mb-2 text-darkGrey text-base">GET IN TOUCH</h3>
           <ul className="space-y-1">
+          <li>
+          <a
+        href="https://twitter.com/twentymurial22"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        Twitter
+       </a>
+        </li>
             <li>
-              <Link href="https://twitter.com/twentymurial22"/> Twitter
-              </li>
-            <li>
-              <Link href="713-962-0931"/> Phone
+              <a href="tel:713-962-0931" rel="noopener noreferrer">Phone</a>
               </li>
           </ul>
         </div>
@@ -42,10 +46,12 @@ export default function Footer() {
           <h3 className="font-bold mb-2 text-darkGrey text-base">FOLLOW US</h3>
           <ul className="space-y-1">
             <li>
-              <Link href="https://www.medium.com/@twentymurial22"/>Medium
+              <a href="https://www.facebook.com/twentymurial22"
+              target='_blank' rel='noopener noreferrer'>Medium</a>
               </li>
-            <li>
-              <Link href="https://www.linkedin.com/in/twentymurial22/"/>LinkedIn
+             <li>
+              <a href="https://www.linkedin.com/in/twentymurial22/"
+              target='_blank' rel='noopener noreferrer'>LinkedIn</a>
               </li>
           </ul>
         </div>
