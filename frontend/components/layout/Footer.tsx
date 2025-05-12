@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -8,8 +9,8 @@ export default function Footer() {
             Murials Blog
           </h2>
           <div className="flex gap-3 mt-4 text-grey text-lg">
-            <img src="/images/Medium Monogram.png" alt="Medium" width={24} height={24} />
-            <img src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} />
+            <Image src="/images/Medium Monogram.png" alt="Medium" width={24} height={24} />
+            <Image src="/images/linkedin.png" alt="LinkedIn" width={24} height={24} />
           </div>
         </div>
 
