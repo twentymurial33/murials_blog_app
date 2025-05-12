@@ -17,7 +17,7 @@ export default function Footer() {
 
         <div>
           <h3 className="font-bold mb-2 text-darkGrey">CATEGORY</h3>
-          {/* Get cATEGORY List from DB */}
+          {/* TODO: Get cATEGORY List from DB */}
           <ul className="space-y-1">
             <li>CSS</li>
             <li>Javascript</li>
