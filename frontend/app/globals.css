@@ -1,18 +1,32 @@
 @import "tailwindcss";
 @tailwind utilities;
 
+@theme{
+  --color-*: initial;
+  --color-blue:'#6246EA',
+  --color-black:'#2B2C34',
+  --color-lightGrey :'#E4E5E9',
+  --color-lightGrey2:'#EFF0F3',
+  --color-grey:'#C0C0C0',
+  --color-darkGrey:'#2D3748',
+  --color-white:'#FFFFFE',
+  --font-plus-jakarta:'Plus Jakarta Sans',
+  --font-size-sm:'0.875rem',
+  --font-size-base:'1rem',
+  --font-size-md:'1.125rem',
+  --font-size-lg:'1.25rem',
+  --font-size-xl:'1.5rem',
+  --font-size-2xl:'2rem',
+  --font-size-3xl:'3rem',
+  --font-size-4xl:'4rem',
+}
+  
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
+  --font-body: Plus Jakarta Sans, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
