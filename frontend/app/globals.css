@@ -2,6 +2,7 @@
 @tailwind utilities;
 
 @theme{
+  --color-*: initial;
   --color-blue:'#6246EA',
   --color-black:'#2B2C34',
   --color-lightGrey :'#E4E5E9',
@@ -23,6 +24,7 @@
 
 :root {
   --foreground: #171717;
+  --font-body: Plus Jakarta Sans, sans-serif;
 }
 
 
